@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv*/
+.env
+.env.*
+!.env.example
+media/
+outputs/
+models/
+voiceover/
+*.wav
+*.mp3
+*.mp4
+*.pth
+*.ckpt

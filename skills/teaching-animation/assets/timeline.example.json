@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "cover_duration": 0,
+  "duration": 4,
+  "shots": [
+    {
+      "id": "S01",
+      "start": 0,
+      "duration": 4,
+      "cues": [
+        {
+          "id": "C01",
+          "start": 0,
+          "end": 2,
+          "display_text": "先观察物体的初始位置。",
+          "speech_text": "",
+          "events": [{"id": "initial", "start": 0, "end": 2, "trigger": "静态观察"}]
+        },
+        {
+          "id": "C02",
+          "start": 2,
+          "end": 4,
+          "display_text": "物体向右移动，再停下。",
+          "speech_text": "",
+          "events": [{"id": "move", "start": 2, "end": 3.5, "trigger": "向右移动"}]
+        }
+      ]
+    }
+  ]
+}
